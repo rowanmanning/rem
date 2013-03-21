@@ -1,0 +1,27 @@
+
+@import "../lib/rem.scss";
+
+/* Single value */
+selector {
+    @include rem(prop, 16px);
+}
+
+/* Multiple values */
+selector {
+    @include rem(prop, 1px 2px 3px);
+}
+
+/* Non-pixel units */
+selector {
+    @include rem(prop, 0);
+    @include rem(prop, 100%);
+    @include rem(prop, 0.5);
+    @include rem(prop, 10px 0 100% 0.5 10px);
+}
+
+/* Non-numeric values */
+selector {
+    @include rem(prop, #000);
+    @include rem(prop, rgb(0, 0, 0));
+    @include rem(prop, inherit);
+}

@@ -1,0 +1,29 @@
+/* Single value */
+selector {
+  prop: 16px;
+  prop:  1.6rem; }
+
+/* Multiple values */
+selector {
+  prop: 1px 2px 3px;
+  prop:  0.1rem 0.2rem 0.3rem; }
+
+/* Non-pixel units */
+selector {
+  prop: 0;
+  prop:  0;
+  prop: 100%;
+  prop:  100%;
+  prop: 0.5;
+  prop:  0.5;
+  prop: 10px 0 100% 0.5 10px;
+  prop:  1rem 0 100% 0.5 1rem; }
+
+/* Non-numeric values */
+selector {
+  prop: black;
+  prop:  black;
+  prop: black;
+  prop:  black;
+  prop: inherit;
+  prop:  inherit; }
