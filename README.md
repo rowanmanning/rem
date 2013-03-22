@@ -33,6 +33,12 @@ body {
 You can find more [examples in the tests][tests].
 
 
+Credit
+------
+
+A lot of credit goes to [bitmanic/rem][bitmanic], which inspired the API for this library. I needed a `rem` mixin which works with Libsass, and would have ended up rewriting a lot of his library to get there (also, the repo seems a little dead as of writing).
+
+
 Development
 -----------
 
@@ -65,6 +71,7 @@ Licensed under the [MIT][mit] license.
 
 
 
+[bitmanic]: https://github.com/bitmanic/rem
 [make]: http://gnuwin32.sourceforge.net/packages/make.htm
 [mit]: http://opensource.org/licenses/mit-license.php
 [sass]: http://sass-lang.com/download.html
