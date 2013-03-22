@@ -4,7 +4,7 @@ Rem
 
 Rem is a simple mixin for Sass which converts pixel values to rem values with a pixel fallback.
 
-**Current Version:** *0.0.0*  
+**Current Version:** *1.0.0*  
 **Sass Support:** *Sass 3.2.5, Libsass*
 
 
