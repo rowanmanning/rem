@@ -54,7 +54,7 @@ When no build target is specified, make will run `test`. This means you can use 
 $ make
 ```
 
-Please run the tests before submitting a pull request.
+Please run the tests before submitting a pull request. Both Sass and Libsass tests should say "All OK :)".
 
 
 License
